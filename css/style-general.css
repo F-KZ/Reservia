@@ -9,6 +9,7 @@
 }
 body {
     font-family: raleway;
+    width:100%
 }
 
 html {
@@ -24,20 +25,19 @@ ul{
     list-style-type: none;
 }
 
-
-
-header > nav > ul > li > a {
-    text-decoration: none;
-    color: var(--black);
-    padding: 34px;
-}
  
 .inscription a {
 
-    
+    color: #0065FC;
     font-weight: bold;
 }
+body > div > header > nav > ul > li.onglet-nav.hebergement > a {
+    color: #0065FC;
+}
 
+body > div > header > nav > ul > li.onglet-nav.activite_nav > a {
+    color: #181818;
+}
 .colorLien13 {
     color: #0065FC;
 }
@@ -68,15 +68,9 @@ header > nav > ul > li > a {
     align-items: center;
     border-radius: 10px 0 0 10px;
 }
-@media only screen and (min-width: 1101px) {
-.recherche {
-    height: 50px;
-    width: 230px;
-    font-size: 18px;
-    color: black;
-    font-weight: bold;
 
-}
+
+
 .button {
     height: 50px;
     width: 120px;
@@ -89,7 +83,7 @@ header > nav > ul > li > a {
     border-radius: 0 10px 10px 0;
 }
 
-}  
+
 
 
 .button i {
@@ -350,7 +344,7 @@ body > div > footer > div > ul > li > a {
 .footer {
 
     background-color: #f2f2f2;
-   
+    padding: 30px 30px;
     line-height: 2em;
-    
+
 }
