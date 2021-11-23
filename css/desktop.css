@@ -163,6 +163,7 @@ input::-webkit-textfield-decoration-container {
 
 /* Filtres */
 .logoIcone {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -476,9 +477,9 @@ p {
     align-items: flex-start;
 }
 
-#Activités_à_Marseille h1 {
+#Activités_à_Marseille > h2 {
     margin-left: 60px;
-    font-size: x-large;
+    
 }
 
 .activites {

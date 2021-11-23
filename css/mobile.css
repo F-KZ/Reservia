@@ -139,6 +139,7 @@
         align-content: center;
         justify-content: flex-start;
         align-items: center;
+        cursor: pointer;
         }
         .filtreIcone {
             border: 2px solid rgb(224, 223, 223);

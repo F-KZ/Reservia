@@ -8,8 +8,10 @@
   --grey: #F2F2F2;
 }
 body {
+    margin: 0;
     font-family: raleway;
     width:100%
+    
 }
 
 html {
@@ -185,6 +187,7 @@ p {
     margin: 0px;
     font-size: x-large;
     margin-bottom: 21px;
+    font-size: 20px;
 }
 .placement_photo a {
     text-decoration: none;
@@ -242,6 +245,7 @@ p {
 }
 .titre_les_plus_populaires {
     font-size: x-large;
+    font-size: 20px;
 }
 
 .hebergement_notation_populaire {
@@ -300,6 +304,11 @@ p {
             }
 /* Titre Activité */
   
+#Activités_à_Marseille > h2 {
+    margin-left: 60px;
+    font-size: 20px;
+}
+
 .activites h2 {
     FONT-SIZE: 17px;
     font-weight: bold;  
