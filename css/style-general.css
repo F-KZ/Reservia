@@ -33,12 +33,12 @@ ul{
     color: #0065FC;
     font-weight: bold;
 }
-body > div > header > nav > ul > li.onglet-nav.hebergement > a {
+body > div > header > nav > ul > li.onglet-nav.hebergement > a:hover {
     color: #0065FC;
 }
 
-body > div > header > nav > ul > li.onglet-nav.activite_nav > a {
-    color: #181818;
+body > div > header > nav > ul > li.onglet-nav.activite_nav > a:hover {
+    color: #0065FC;
 }
 .colorLien13 {
     color: #0065FC;
@@ -95,7 +95,6 @@ body > div > header > nav > ul > li.onglet-nav.activite_nav > a {
     border: none;
     font-size: 1.2em;
 }
-
 
 
 .margFiltre {

@@ -60,7 +60,7 @@
             justify-content: center;
         }
         
-        
+    
         body > div > header > nav > ul > li.onglet-nav.activite_nav {
             width: 50%;
            display: flex;
@@ -90,10 +90,13 @@
         }
         body > div > header > nav > ul > li > a {
             text-decoration: none;
+            color: black;
         }
         
         
-         
+        body > div > header > nav > ul > li > a:hover {
+            color:#0065FC
+        }
     
         
         /* changer la barre de rech */
