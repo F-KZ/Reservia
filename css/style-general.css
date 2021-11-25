@@ -8,7 +8,10 @@
   --grey: #F2F2F2;
 }
 body {
+    margin: 0;
     font-family: raleway;
+    width:100%
+    
 }
 
 html {
@@ -24,20 +27,19 @@ ul{
     list-style-type: none;
 }
 
-
-
-header > nav > ul > li > a {
-    text-decoration: none;
-    color: var(--black);
-    padding: 34px;
-}
  
 .inscription a {
 
-    
+    color: #0065FC;
     font-weight: bold;
 }
+body > div > header > nav > ul > li.onglet-nav.hebergement > a:hover {
+    color: #0065FC;
+}
 
+body > div > header > nav > ul > li.onglet-nav.activite_nav > a:hover {
+    color: #0065FC;
+}
 .colorLien13 {
     color: #0065FC;
 }
@@ -68,15 +70,9 @@ header > nav > ul > li > a {
     align-items: center;
     border-radius: 10px 0 0 10px;
 }
-@media only screen and (min-width: 1101px) {
-.recherche {
-    height: 50px;
-    width: 230px;
-    font-size: 18px;
-    color: black;
-    font-weight: bold;
 
-}
+
+
 .button {
     height: 50px;
     width: 120px;
@@ -89,7 +85,7 @@ header > nav > ul > li > a {
     border-radius: 0 10px 10px 0;
 }
 
-}  
+
 
 
 .button i {
@@ -99,7 +95,6 @@ header > nav > ul > li > a {
     border: none;
     font-size: 1.2em;
 }
-
 
 
 .margFiltre {
@@ -191,6 +186,7 @@ p {
     margin: 0px;
     font-size: x-large;
     margin-bottom: 21px;
+    font-size: 20px;
 }
 .placement_photo a {
     text-decoration: none;
@@ -248,6 +244,7 @@ p {
 }
 .titre_les_plus_populaires {
     font-size: x-large;
+    font-size: 20px;
 }
 
 .hebergement_notation_populaire {
@@ -263,7 +260,6 @@ p {
 
 
 /*Activités à Marseille*/
-
 
 
 .activites a {
@@ -307,6 +303,11 @@ p {
             }
 /* Titre Activité */
   
+#Activités_à_Marseille > h2 {
+    margin-left: 60px;
+    font-size: 20px;
+}
+
 .activites h2 {
     FONT-SIZE: 17px;
     font-weight: bold;  
@@ -351,7 +352,7 @@ body > div > footer > div > ul > li > a {
 .footer {
 
     background-color: #f2f2f2;
-   
+    padding: 30px 30px;
     line-height: 2em;
-    
+
 }

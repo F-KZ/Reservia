@@ -40,10 +40,8 @@
         }
     
         body > div > header > div > a {
-        
         display: flex;
-        
-        margin-top: 20px;
+        margin-top: 25px;
         }
         
         .hebergement {
@@ -53,8 +51,16 @@
             border-bottom: 3px solid #f2f2f2;
             justify-content: center;
         }
+
+        .hebergement:hover {
+            width: 50%;
+            order: 1;
+            display: flex;
+            border-bottom: 3px solid #0065FC;
+            justify-content: center;
+        }
         
-        
+    
         body > div > header > nav > ul > li.onglet-nav.activite_nav {
             width: 50%;
            display: flex;
@@ -63,17 +69,34 @@
            border-bottom: 3px solid #f2f2f2;
            }
         
+           body > div > header > nav > ul > li.onglet-nav.activite_nav:hover {
+            width: 50%;
+           display: flex;
+           order: 2;
+           justify-content: center;
+           border-bottom: 3px solid blue;
+           }
+
+    
+
+        
     
         .inscription {
             display: flex;
             width: 100%;
-            height: 50px;
+            height: 60px;
             justify-content: flex-end;
+            align-items: center;
+        }
+        body > div > header > nav > ul > li > a {
+            text-decoration: none;
+            color: black;
         }
         
         
-        
-         
+        body > div > header > nav > ul > li > a:hover {
+            color:#0065FC
+        }
     
         
         /* changer la barre de rech */
@@ -92,6 +115,11 @@
             
         
         }
+        #section > form > div > div.recherche.flexCentre {
+            width:65%;
+        }
+
+
     
         .button {
             height: 50px;
@@ -114,6 +142,7 @@
         align-content: center;
         justify-content: flex-start;
         align-items: center;
+        cursor: pointer;
         }
         .filtreIcone {
             border: 2px solid rgb(224, 223, 223);
@@ -229,7 +258,6 @@
         background-color: #f2f2f2;
         display: flex;
         flex-direction: column;
-        border-radius: 20px;
         margin-top: 20px;
         padding: 10px;
         margin-bottom: 100px;
@@ -288,10 +316,6 @@
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
-    
-    
-    
-    
     
     
     .titre_populaire_contenu {
@@ -404,7 +428,6 @@
             display: flex;
             flex-direction: column;
             background-color: #f2f2f2;
-            padding: 20px;
             margin-top: 30px;
         }
     
