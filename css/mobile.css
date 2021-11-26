@@ -53,6 +53,12 @@
         
         margin-top: 20px;
         }
+
+        header > nav > ul > li > a {
+            text-decoration: none;
+            color: var(--black);
+            padding: 20px;
+        }
         
         .hebergement {
             width: 50%;
@@ -61,7 +67,9 @@
             border-bottom: 3px solid #f2f2f2;
             justify-content: center;
         }
-        
+        .hebergement:hover {
+            border-bottom: 3px solid #0065FC;
+        }
         
         body > div > header > nav > ul > li.onglet-nav.activite_nav {
             width: 50%;
@@ -70,6 +78,11 @@
            justify-content: center;
            border-bottom: 3px solid #f2f2f2;
            }
+
+        body > div > header > nav > ul > li.onglet-nav.activite_nav:hover {
+           
+           border-bottom: 3px solid #0065FC;
+           }     
         
     
         .inscription {
@@ -97,8 +110,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            
-        
         }
     
         .button {

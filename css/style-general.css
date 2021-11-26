@@ -23,15 +23,14 @@ html {
 ul{
     list-style-type: none;
 }
-
-
-
-header > nav > ul > li > a {
-    text-decoration: none;
-    color: var(--black);
-    padding: 20px;
+body > div > header > nav > ul > li.onglet-nav.activite_nav > a:hover {
+    color:#0065FC;
 }
- 
+
+body > div > header > nav > ul > li.onglet-nav.hebergement > a:hover {
+    color: #0065FC;
+}
+
 .inscription a {
 
     color:#0065FC;

@@ -96,7 +96,11 @@ ul {
 }
 
 
-
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: var(--black);
+    padding: 31px;
+}
 
 .barreRecherche {
     border-radius: 10px;
