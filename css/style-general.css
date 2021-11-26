@@ -29,12 +29,12 @@ ul{
 header > nav > ul > li > a {
     text-decoration: none;
     color: var(--black);
-    padding: 34px;
+    padding: 20px;
 }
  
 .inscription a {
 
-    
+    color:#0065FC;
     font-weight: bold;
 }
 
@@ -74,8 +74,8 @@ header > nav > ul > li > a {
     width: 230px;
     font-size: 18px;
     color: black;
+    border: 1px solid #f2f2f2;
     font-weight: bold;
-
 }
 .button {
     height: 50px;
@@ -197,8 +197,8 @@ p {
     color: black;
 }
 .box_carte:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
     }
 
@@ -243,11 +243,14 @@ p {
 /*Les plus populaires*/
 
 #hebergements_populaires > h2 > i {
-    margin-left: 25%;
     color: black;
 }
 .titre_les_plus_populaires {
     font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hebergement_notation_populaire {
@@ -256,8 +259,8 @@ p {
 
 
 .box_populaire_carte:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
     }
 
@@ -271,38 +274,38 @@ p {
 }
 
 .activite1:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
 }
 
 .activite2:hover {
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
         transform: scale(1.1);
  }
 
  .activite3:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
     }
 
 .activite4:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
     }
 
 .activite5:hover {
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
         transform: scale(1.1);
         }
 
 .activite6:hover {
-            -ms-transform: scale(1.5); /* IE 9 */
-            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
             transform: scale(1.1);
             }
 /* Titre Activité */

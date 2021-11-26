@@ -99,13 +99,10 @@ ul {
 
 
 .barreRecherche {
-    width: 400px;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    
-
 }
 
 .gps {
@@ -555,9 +552,9 @@ p {
 }
 
 .activite4:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
     }
 
 
