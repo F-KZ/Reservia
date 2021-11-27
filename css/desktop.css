@@ -88,13 +88,11 @@ ul {
     font-weight: bold
 }
 
-
 /* HEADER */
 .logo{
     width: 70%;
     
 }
-
 
 header > nav > ul > li > a {
     text-decoration: none;
