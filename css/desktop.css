@@ -269,7 +269,7 @@ p {
 #hebergement {
     display: flex;
     flex-direction: row;
-    padding: 0 40px 0 40px;
+   
    
     justify-content: space-evenly;
     margin-bottom: 56px;
