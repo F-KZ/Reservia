@@ -50,9 +50,9 @@
 ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
     justify-content: space-between;
-    width: 100%;        
+           
 }
 
 .onglet-nav :hover {
@@ -270,7 +270,7 @@ p {
     display: flex;
     flex-direction: row;
     padding: 0 40px 0 40px;
-    flex-wrap: wrap;
+   
     justify-content: space-evenly;
     margin-bottom: 56px;
 }
@@ -286,8 +286,8 @@ p {
     flex-direction: column;
     align-content: space-between;
     border-radius: 20px;
-    padding: 20px;
-    width: 840px;
+    padding: 15px;
+    width: 750px;
 }
 .placement_photo {
     display: flex;
@@ -299,7 +299,7 @@ p {
 
 #hebergements_a_marseille > div.placement_photo > a > div > picture > img{
     object-fit: cover;
-    width: 236px;
+    width: 195px;
     height: 112px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -389,8 +389,8 @@ p {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    padding: 20px;
-    max-width: 345px;
+    padding: 15px;
+    max-width: 265px;
 }
 
 
@@ -407,7 +407,6 @@ p {
     display: flex;
     background-color: white;
     padding: 6px 6px 6px 6px;
-    width: 97%;
     margin-bottom: 32px;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -416,8 +415,8 @@ p {
 
 
 #hebergements_populaires > div > div > picture > img {
-    width: 132px;
-    height: 132px;
+    width: 128px;
+    height: 159px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -568,7 +567,7 @@ p {
     object-fit: cover;
 }
 .activite5 {
-    width: 100%;
+    width: 260px;
     height: 200px;
     margin-bottom: 30px;
     border-radius: 15px;
