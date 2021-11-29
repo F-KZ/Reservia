@@ -288,8 +288,30 @@
         flex-wrap: nowrap;
         width: 100%;
     }
+    @media screen and (max-width: 480px) {
+        .lien_heber {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: nowrap;
+            width: 67%;
+        }
+
+        .hebergement_populaire_contenu {
+            width: 100%;
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+            /* margin-left: 20px; */
+            height: 100%;
+            padding: 7px 0px 24px 20px;
+            align-items: center;
+            justify-content: flex-start;
+        }
+    }
     
-    
+
+
     #hebergements_populaires > div > div > picture {
         width:100%
     }
